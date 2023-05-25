@@ -1,0 +1,66 @@
+#navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#navbar div{
+    display: flex;
+    /* justify-content: space-between; */
+}
+#navbar div a{
+    margin: 15px;
+    text-decoration: none;
+}
+
+.container{
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.toggle-form{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.toggle-form button {
+    padding:8px 20px;
+border: none;
+border-radius: 5px;
+margin-right: 10px;
+cursor: pointer;
+}
+.toggle-form button.active{
+    background-color: blue;
+color: chartreuse;
+}
+
+ #register-form{
+    display: none;
+}
+#login-form h2,
+#register-form h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#login-form form,
+#register-form form{
+display: flex;
+flex-direction: column;
+}
+
+#login-form input,
+#register-form input,
+#login-form button,
+#register-form button{
+    margin-bottom: 10px;
+}
+#login-form button,
+#register-form button{
+    padding: 8px 12px;
+    background-color: aqua;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

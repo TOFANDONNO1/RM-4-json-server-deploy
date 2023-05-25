@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "username": "SOUMYA RANJAN ROUT",
+      "usermail": "ranjansoumya413@gmail.com",
+      "password": "bb",
+      "reenterpassword": "bb",
+      "normaluser": "normaluser",
+      "id": 1
+    },
+    {
+      "username": "SOUMYA RANJAN ROUT",
+      "usermail": "ranjansoumya413@gmail.com",
+      "password": "gg",
+      "reenterpassword": "gg",
+      "normaluser": "normaluser",
+      "id": 2
+    }
+  ],
+  "doctor": [
+    {
+      "username": "SOUMYA RANJAN ROUT",
+      "usermail": "ranjansoumya413@gmail.com",
+      "password": "ff",
+      "reenterpassword": "ff",
+      "doctor": "doctor",
+      "id": 1
+    },
+    {
+      "username": "SOUMYA RANJAN ROUT",
+      "usermail": "ranjansoumya413@gmail.com",
+      "password": "tt",
+      "reenterpassword": "tt",
+      "doctor": "doctor",
+      "id": 2
+    }
+  ]
+}

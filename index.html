@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="Style/index.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai Hospital</title>
+</head>
+<body>
+    <div id="navbar">
+        <h1>Masai Hospital</h1>
+      <div>
+        <a href="./index.html"><h1>Home Page</h1></a>
+        <a href="./dashboard.html">
+            <h1>Doctor's Dashboard</h1></a>
+        <a href="./appointments.html">
+            <h1>Book Appointments</h1></a>
+      </div>
+       
+        
+    </div>
+    <div class="container">
+<div class="toggle-form">
+<button id="login-toggle-btn" class="active">Login</button>
+<button id="register-toggle-btn" >Register</button>
+</div>
+<div id="login-form">
+<h2>Login</h2>
+<form id="login" >
+    <input type="email" id="loginmail" placeholder="Email"/>
+    <input type="password" id="loginpass" placeholder="password"/>
+    <button type="submit">Login</button>
+</form>
+
+</div>
+<div id="register-form">
+    <h2>Register</h2>
+    <form id="register">
+        <input type="text" id="username" placeholder="Username"/>
+        <input type="email" id="usermail" placeholder="Email"/>
+                <input type="password" id="password" placeholder="Password"/>
+        
+                <input type="password" id="reenterpassword" placeholder="Repeat Password"/>
+                <label >Doctor</label><input id="checkbox" type="checkbox" />
+        
+  
+  <button type="submit" >Register</button>  </form>
+</div>
+    </div>
+</body>
+</html>
+<script src="Script/index.js"></script>
